@@ -1,9 +1,7 @@
 package TestLombok;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.experimental.Builder;
 
 /**
  * @author : wuyan
@@ -14,6 +12,9 @@ import lombok.experimental.Builder;
 @Setter
 @Getter
 public class TestLombok {
+    /**
+     * @Setter @Getter方法使用还存在问题，不能使用set和get方法
+     * */
         String name;
         String nationaltity;
         String hoby;
