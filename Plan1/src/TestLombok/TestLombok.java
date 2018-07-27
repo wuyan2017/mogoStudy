@@ -1,6 +1,7 @@
 package TestLombok;
 
 import lombok.Getter;
+
 import lombok.Setter;
 
 /**
