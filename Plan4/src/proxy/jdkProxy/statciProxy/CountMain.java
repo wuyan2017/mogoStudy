@@ -11,5 +11,6 @@ public class CountMain {
         CountProxy countProxy = new CountProxy(countImpl);
         countProxy.queryCount();
         countProxy.updateCount();
+
     }
 }

@@ -1,5 +1,4 @@
 package proxy.jdkProxy.statciProxy;
-
 /**
  * @author wuyan
  * @date 2018/7/27

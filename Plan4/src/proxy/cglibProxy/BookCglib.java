@@ -35,7 +35,6 @@ public class BookCglib implements MethodInterceptor {
         return  enhancer.create();
     }
 
-
     /**
      * 实现回调方法
      * @param object

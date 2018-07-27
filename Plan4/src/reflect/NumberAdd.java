@@ -13,7 +13,6 @@ public class NumberAdd {
         this.x = x;
         this.y = y;
     }
-
     public NumberAdd(String z) {
         this.z = z;
     }

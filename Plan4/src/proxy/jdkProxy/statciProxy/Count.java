@@ -6,6 +6,7 @@ package proxy.jdkProxy.statciProxy;
  * 1、定义一个接口类，说明业务逻辑
  */
 public interface Count {
+
     /**
      * 查询账户
      */

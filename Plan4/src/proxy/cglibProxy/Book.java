@@ -4,6 +4,7 @@ package proxy.cglibProxy;
  * @Author tannanlin
  * @Date 2018/7/5
  */
+
 public class Book {
 
     public  void  addBook(){

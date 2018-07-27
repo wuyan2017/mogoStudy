@@ -17,7 +17,6 @@ public class ReflectMethod {
         A a1 = new A();
         Class c = a1.getClass();
 
-
         try {
 			/*
 			 * 2.获取方法 名称和参数列表来决定

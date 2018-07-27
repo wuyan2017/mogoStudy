@@ -3,7 +3,6 @@ package reflect;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 /**
  * @author wuyan
  * @date 2018/7/25 17:27

@@ -10,7 +10,6 @@ package proxy.jdkProxy.statciProxy;
 public class CountProxy implements Count{
 
     private  CountImpl countImpl;
-
     /**
      * 覆盖默认构造器
      * @param countImpl

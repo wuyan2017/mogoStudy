@@ -18,7 +18,6 @@ public class MainAndSubCyclical  {
                 }
         ).start();
 
-
         for (int i = 1; i <= 50; i++) {
             common.main(i);
         }

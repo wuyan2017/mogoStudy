@@ -16,7 +16,6 @@ public class ReflectStudy {
 
         ArrayList<String> list2 = new ArrayList<String>();
         list2.add("hello world");
-//		list2.add(20);//错误的
 
         Class c1 = list.getClass();
         Class c2 = list2.getClass();
