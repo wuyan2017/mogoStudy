@@ -18,6 +18,7 @@ public class MapStudy {
             System.out.println(iterator.next());
         }
 
+        /**map的遍历方式 keyset*/
         Set<String> keySet=hashMap.keySet();
         Iterator<String> keyIterator=keySet.iterator();
         while(keyIterator.hasNext()){
@@ -26,6 +27,11 @@ public class MapStudy {
         while (iterator.hasNext()){
             Map.Entry<String,String> entrySet= iterator.next();
             System.out.println(entrySet.getValue());
+        }
+        /**Map.Entry<k,v> 的方式*/
+        for(Map.Entry<String,String> vo:hashMap.entrySet()){
+            System.out.println(vo.getKey());
+            System.out.println(vo.getValue());
         }
     }
 }
